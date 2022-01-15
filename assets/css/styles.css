@@ -406,6 +406,7 @@ img {
   display: block;
   background-color: var(--first-color);
   color: var(--white-color);
+  font-family: var(--body-font);
   padding: .75rem 2.5rem;
   margin-left: auto;
   border-radius: .5rem;
