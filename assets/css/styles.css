@@ -656,22 +656,22 @@ img {
 
 .bar.php::before {
   background-color: #ffa200;
-  width: calc(50% - 10px);
+  width: calc(60% - 10px);
 }
 
 .bar.wordpress::before {
   background-color: hsla(315, 95%, 75%, 1);
-  width: calc(70% - 10px);
+  width: calc(90% - 10px);
 }
 
 .bar.c::before {
   background-color: hsla(0, 100%, 80%, 1);
-  width: calc(75% - 10px);
+  width: calc(85% - 10px);
 }
 
 .bar.java::before {
   background-color: hsla(30, 50%, 70%, 1);
-  width: calc(83% - 10px);
+  width: calc(85% - 10px);
 }
 
 .credit {
