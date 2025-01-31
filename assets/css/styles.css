@@ -638,8 +638,13 @@ img {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.bar.sql::before {
+  background-color: rgb(0, 217, 255);
+  width: calc(100% - 10px);
+}
+
 .bar.html5::before {
-  background-color: hsla(279, 92%, 75%, 1);
+  background-color: rgb(133, 150, 250);
   width: calc(90% - 10px);
 }
 
@@ -693,4 +698,13 @@ img {
   text-decoration: none;
   color: #000;
   font-weight: bold;
+}
+
+#skills {
+  line-height: 1.2;
+}
+
+#skills .container {
+  height: auto;
+  padding-bottom: 2rem;
 }
